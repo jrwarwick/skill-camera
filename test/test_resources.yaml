@@ -1,0 +1,34 @@
+# Specify resources to test here.
+
+# Specify languages to be tested
+languages:
+  - "en-us"
+
+# vocab is lowercase .voc file basenames
+vocab: []
+
+# dialog is .dialog file basenames (case-sensitive)
+dialog:
+  - "DefaultDuration"
+  #- "hour.list
+  - "LaunchCamera"
+  #- "minute.list
+  - "NoCamera"
+  - "NothingToShow"
+  - "PictureInsteadOfVideo"
+    #- "second.list
+  - "ServerNotSupported"
+  - "ShowLatest"
+  - "StartRecording"
+
+# regex entities, not necessarily filenames
+regex: []
+intents:
+  # Padatious intents are the `.intent` file names
+  padatious:
+    - "ShowLastIntent"
+    - "TakePicIntent"
+    - "TakeVidIntent"
+  # Adapt intents are the name passed to the constructor
+  adapt: [] 
+
